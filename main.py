@@ -1,9 +1,10 @@
 def hello(name):
-    print(f"hi{name}!Good to see you learning GitHub Actions")
+    return f"hi {name}!Good to see you learning GitHub Actions"
 
 
 def bye():
-    print("bye for now.Please keep on studying")
+    return "bye for now.Please keep on studying"
 
 
-print(hello('ferdie'))
+print(hello("Ferdie"))
+print(bye())
